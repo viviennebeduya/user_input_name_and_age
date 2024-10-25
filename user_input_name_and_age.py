@@ -21,9 +21,9 @@ while True:
                 oldest_name = name
                 oldest_age = age
 
-            print (f"Here's your current directory {user_input}.")
+            print (f"\nCurrent Directory: \n {user_input}.")
 
-            retry = input ("Would you like to input another? (yes/no)")
+            retry = input ("Would you like to input another (yes/no)? ")
             break
 # print error input=valid
         except:
